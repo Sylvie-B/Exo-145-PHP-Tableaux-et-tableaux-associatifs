@@ -2,33 +2,41 @@
 
 // Premiere ligne
 
-$fruits = array("Apple", "Banana" "Orange");
-echo ;
+$fruits = array("Apple", "Banana", "Orange");
 
-//Deuxieme ligne
+echo count($fruits)."<br>";
 
+echo $fruits[1]."<br>";
 
-$age = array("Peter" "35", "Ben" "37", "Joe" "43");
-
-echo "<br><br>Ben is " .  . " years old.<br><br>";
-
-($age  $x  $y) {
-    echo "<br>Key=" .  . ", Value=" . ;
+foreach ($fruits as $value){
+    echo $value."<br>";
 }
 
 
+//Deuxieme ligne
 
-//Troisieme ligne
+//
+//$age = array("Peter" "35", "Ben" "37", "Joe" "43");
+//
+//echo "<br><br>Ben is " .  . " years old.<br><br>";
+//
+//($age  $x  $y) {
+//    echo "<br>Key=" .  . ", Value=" . ;
+//}
 
-$colors = array("red", "green", "blue", "yellow");
-;
 
 
-// Quatrieme ligne
-
-$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
-;
-
+////Troisieme ligne
+//
+//$colors = array("red", "green", "blue", "yellow");
+//;
+//
+//
+//// Quatrieme ligne
+//
+//$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+//;
+//
 
 
 
